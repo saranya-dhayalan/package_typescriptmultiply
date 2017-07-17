@@ -1,0 +1,28 @@
+{
+  "name": "package_typescriptmultiply",
+  "version": "1.0.0",
+  "description": "multiply the two num",
+  "main": "dist/index.js",
+  "types":"dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build":"tsc",
+    "test": "multiplication"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saranya-dhayalan/package_typescriptmultiply.git"
+  },
+  "keywords": [
+    "mul"
+  ],
+  "author": "saranya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saranya-dhayalan/package_typescriptmultiply/issues"
+  },
+  "homepage": "https://github.com/saranya-dhayalan/package_typescriptmultiply#readme",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
